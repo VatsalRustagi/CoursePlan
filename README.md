@@ -11,10 +11,10 @@
 
 ## Screenshots
 
-![screenshot_1](screenshot1.png)
-![screenshot_2](screenshot2.png)
+<img src="screenshot1.png" width="400" align="center">
+<img src="screenshot2.png" width="400" align="center">
 
 ## How the app works.
-<img src="ucicourseplan.gif" width="100">
+<img src="ucicourseplan.gif" width="400" align="center">
 
 
