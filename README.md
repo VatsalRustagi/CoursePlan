@@ -10,11 +10,14 @@
 - Created the frontend in iOS using swift-3 and pods like Alamofire etc.
 
 ## Screenshots
-
-<img src="screenshot1.png" width="400" align="center">
-<img src="screenshot2.png" width="400" align="center">
+<p align="center">
+<img src="screenshot1.png">
+<img src="screenshot2.png">
+</p>
 
 ## How the app works.
+<p align="center">
 <img src="ucicourseplan.gif" width="400" align="center">
+</p>
 
 
