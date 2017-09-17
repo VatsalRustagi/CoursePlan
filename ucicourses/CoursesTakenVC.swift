@@ -11,6 +11,9 @@ import UIKit
 var selectedCourses = [String]()
 
 class CoursesTakenVC: UIViewController, BackendDelegate {
+    
+    let green = UIColor(red: 0.40, green: 0.68, blue: 0.36, alpha: 1.00)
+    let purple = UIColor(red: 0.30, green: 0.18, blue: 0.64, alpha: 1.00)
 
     @IBOutlet weak var collectionView: UICollectionView!
     @IBOutlet weak var courseType: UISegmentedControl!
@@ -83,10 +86,10 @@ extension CoursesTakenVC: UICollectionViewDelegate, UICollectionViewDataSource, 
             cell.updateUI(course: courses[indexPath.row], name: titles[indexPath.row])
             
             if (indexes[current]?.contains(indexPath.row))!{
-                cell.bgView.backgroundColor = UIColor(red: 0.50, green: 1.00, blue: 0.00, alpha: 1.00)
+                cell.bgView.backgroundColor = green
             }
             else{
-                cell.bgView.backgroundColor = UIColor(red: 0.30, green: 0.18, blue: 0.64, alpha: 1.00)
+                cell.bgView.backgroundColor = purple
             }
             return cell
         }
@@ -107,12 +110,12 @@ extension CoursesTakenVC: UICollectionViewDelegate, UICollectionViewDataSource, 
                 selectedCourses.remove(at: j)
             }
             
-            cell.bgView.backgroundColor = UIColor(red: 0.30, green: 0.18, blue: 0.64, alpha: 1.00)
+            cell.bgView.backgroundColor = purple
         }
         else{
             indexes[current]?.append(indexPath.row)
             selectedCourses.append(cell.courseLabel.text!)
-            cell.bgView.backgroundColor = UIColor(red: 0.50, green: 1.00, blue: 0.00, alpha: 1.00)
+            cell.bgView.backgroundColor = green
         }
         
     }

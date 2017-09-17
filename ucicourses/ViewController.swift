@@ -23,8 +23,10 @@ class ViewController: UIViewController, BackendDelegate {
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        print(selectedCourses)
         courseField.text = selectedCourses.joined(separator: ", ")
+        if courseField.text?.isEmpty == true{
+            coursesLabel.text = ""
+        }
     }
     
     @IBAction func submitBtn(_ sender: UIButton) {
@@ -32,6 +34,7 @@ class ViewController: UIViewController, BackendDelegate {
             let params = ["courses": courses.components(separatedBy: ", ")]
             backend.postJSONData(to: "", withParams: params)
         }
+        view.endEditing(true)
     }
     
     func processDataOfType(JSON: Dictionary<String, Any>) {
