@@ -31,7 +31,7 @@ extension BackendDelegate{
 
 class Backend{
     
-    private let baseURL = "http://localhost:3000/"
+    private let baseURL = "https://ucicourseplan.herokuapp.com/"
     
     var delegate: BackendDelegate? = nil
     
