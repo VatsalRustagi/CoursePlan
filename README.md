@@ -15,6 +15,6 @@
 ![screenshot_2](screenshot2.png)
 
 ## How the app works.
-![courseplan_1](ucicourseplan.gif)
+<img src="ucicourseplan.gif" width="100">
 
 
