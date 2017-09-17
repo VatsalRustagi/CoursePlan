@@ -12,9 +12,9 @@
 ## Screenshots
 
 ![screenshot_1](screenshot1.png)
-![webp net-resizeimage](https://user-images.githubusercontent.com/26324291/30507717-2de6d974-9a3d-11e7-89ae-a4202f4279c2.png)
+![screenshot_2](screenshot2.png)
 
 ## How the app works.
-![courseplan_1](https://user-images.githubusercontent.com/26324291/30507720-30d5d39c-9a3d-11e7-9a38-ee95e0505b6d.gif)
+![courseplan_1](ucicourseplan.gif)
 
 
