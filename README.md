@@ -11,7 +11,7 @@
 
 ## Screenshots
 
-![webp net-resizeimage-2](https://user-images.githubusercontent.com/26324291/30507716-2c2f2302-9a3d-11e7-8cfe-59d1d81b11bf.png)
+![screenshot_1](screenshot1.png)
 ![webp net-resizeimage](https://user-images.githubusercontent.com/26324291/30507717-2de6d974-9a3d-11e7-89ae-a4202f4279c2.png)
 
 ## How the app works.
